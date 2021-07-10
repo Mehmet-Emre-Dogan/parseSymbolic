@@ -2,7 +2,7 @@ try:
     from json import load
 except (Exception, OSError, RuntimeError, ImportError, ValueError, IOError, IndexError, OverflowError, TypeError, ArithmeticError) as ex:
         print(ex)# If some error or exception raised then print it to screen so that I can see. 
-        #If I do not do it, then when an error occurs, the command line closes immmediately.
+        #If I do not do it, then when an error occurs, the command line closes immediately.
 
 while True:
     try:
@@ -33,4 +33,4 @@ while True:
         break
     except (Exception, OSError, RuntimeError, ImportError, ValueError, IOError, IndexError, OverflowError, TypeError, ArithmeticError) as ex:
         print(ex) # If some error or exception raised then print it to screen so that I can see. 
-        #If I do not do it, then when an error occurs, the command line closes immmediately.
+        #If I do not do it, then when an error occurs, the command line closes immediately.
